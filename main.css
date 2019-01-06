@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+body {
+    background-color: #808080;
+}
+
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /*background-color: red;*/
+}
+
+.logo{
+    margin-right: 0;
+    padding-right: 0;
+    padding-top:0;
+}
+
+.promo-bar{
+    height: 80px;
+    background-color: #33333a;
+    text-align: center;
+    padding-top:30px;
+}
+
+nav{
+    background-color: #ffff;
+}
+
+.slider{
+    height: 300px;
+    background-color: rgba(51, 51, 58, 0);
+  }
+
+.slider-img{
+    width: 100%;
+    height: 100%;
+}  
+
+.featured {
+    height: 1050px;
+    background-color: #fcfcfc;
+    text-align: center;
+  }
+
+.promo-text{
+    color:#ffff;
+}
+
+.main-nav {
+    display: flex;
+    background-color: #fcfcfc
+}
+
+.main-nav li {
+    list-style: none;
+}
+
+.main-nav li {
+    list-style: none;
+}
+
+.main-nav li:nth-child(5) {
+    margin-right: 350px;
+}
+
+.main-nav li a {
+    display: block;
+    color:#000;
+    border-radius:4px;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+.product {
+    width: 100%;
+}
+
+.product ul {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.product ul li {
+    width: 263px;
+    height: 480px;
+    border: 1px solid tomato;
+    margin-top:20px;
+}
+
+.about-me{
+    display: grid;
+    grid-template-columns: repeat(2fr, 2)
+}
+
+.about-text{
+    margin: 0 auto;
+    display:block;
+}
+
+.explore{
+    height: 840px;
+    background-color: #fcfcfc;
+    display:block;
+}
+
+.explore-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.shop{
+   background-color: #ffff;
+}
+
+.recommended{
+    background-color: #ffff;
+}
+
+.rec-product{
+ width: 100%;
+}
+
+.rec-product ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+}
+
+.rec-product ul li{
+    width: 263px;
+    height: 480px;
+    border: 1px solid tomato;
+    margin-top:20px;
+}
+
+.seen {
+    height: 300px;
+}
+
+.footer{
+    height: 280px;
+    background-color: #33333a;
+}
