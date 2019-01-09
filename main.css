@@ -21,7 +21,6 @@ body {
 .wrapper {
     width: 1139px;
     margin: 0 auto;
-    border:2px solid green;
 }
 
 .logo{
@@ -155,8 +154,7 @@ nav{
 
 .product ul li {
     width: 263px;
-    height: 480px;
-    border: 1px solid tomato;
+    height: 400px;
     margin-top:20px;
 }
 
@@ -170,6 +168,18 @@ nav{
     letter-spacing: normal;
     color: #33333a;
     display: block;
+}
+
+.featured-product ul{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-between;
+}
+
+.featured-product ul li{
+    width: 263px;
+    height: 480px;
+    margin-top:20px;
 }
 
 .price{
@@ -349,7 +359,8 @@ justify-content:space-between;
     width: 263px;
     height: 2px;
     background-color: #33333a;
-    margin-top:100px;
+  align-items: center;
+
 }
 
 .shop{
@@ -369,7 +380,7 @@ justify-content:space-between;
 }
 
 .recommended{
-    background-color: #ffff;
+    background-color: #fcfcfc;
     height: 590px;
 }
 
@@ -387,6 +398,7 @@ justify-content:space-between;
 
 .rec-product{
  width: 100%;
+ height: 320px;
 }
 
 .rec-product ul{
@@ -398,14 +410,13 @@ justify-content:space-between;
 .rec-product ul li{
     width: 361px;
     height: 240px;
-    border: 1px solid tomato;
     margin-top:20px;
 
 }
 
 .seen {
     text-align: center;
-    height: 300px;
+    height: 200px;
     background-color: #ffff;
 }
 
@@ -437,6 +448,7 @@ justify-content:space-between;
 .footer-subs{
     width: 166px;
     height: 40px;
+    margin-top: 52px;
 }
 
 .copy{
@@ -451,7 +463,6 @@ justify-content:space-between;
 }
 
 .second-piece{
-    border: 1px solid black;
     width: 555px;
     height: 560px;
     font-family: ProximaNova;
@@ -462,10 +473,11 @@ justify-content:space-between;
     letter-spacing: 1px;
     color: #33333a;
     font-size: 12px;
+    display: flex;
+  flex-direction: column;;
 }
 
 .first-piece{
-    border: 1px solid black;
     width: 263px;
     font-size: 12px;
     font-family: ProximaNova;
@@ -474,6 +486,8 @@ justify-content:space-between;
     font-stretch: normal;
     line-height: 3.33;
     letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
 }
 
 .explore-title{
@@ -523,4 +537,125 @@ justify-content:space-between;
     letter-spacing: normal;
     color: #33333a;
   
+}
+
+.video-title{
+    font-family: VLNewParisHeadline;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #33333a;
+  }
+
+  .video-thumb{
+    width: 361px;
+    height: 240px;
+  }
+
+.product-img{
+    width: 263px;
+    height: 400px;
+}  
+
+.show-more{
+    background-color: #33333a;
+    color:#ffff;
+    width: 118px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
+}
+
+.footer-title{
+    font-family: VLNewParisHeadline;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.footer-margin{
+    margin-top:20px;
+}
+
+.upside ul li{
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    color: #dedede;
+}
+
+.telp{
+    margin-top: 26px;
+}
+
+
+.email-input{
+  width: 360px;
+  height: 40px;
+  background-color: #33333a;
+  color: #dedede;
+}
+
+
+.email-input::placeholder{
+    padding-left: 10px;
+    width: 329px;
+    height: 20px;
+    font-family: MuseoSansCyrl;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #dedede;
+}
+
+.see-journal{
+    width: 174px;
+    height:60px;
+    background-color: #33333a;
+    color:#ffff;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    margin-top:50px;
+}
+
+.explore-img{
+    width: 555px;
+    height: 280px;
+    margin-top: auto;
+    }
+
+.small-bag{
+    width: 263px;
+    height: 120px;
+}    
+
+.task3{
+    width: 263px;
+    height: 120px;
+    margin-top: auto;
+}
+
+.product-img-featured{
+    width: 263px;
+    height: 390px;
 }
