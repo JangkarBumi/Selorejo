@@ -6,7 +6,7 @@
     <title>matter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+
 </head>
 <body>
    
@@ -80,38 +80,113 @@
 </div>
 </section>
 
+<section class="shop-filter">
+    <p class="shop-filter-text">Women</p>
+    <p class="shop-filter-text">Sort by</p>
+    <div class="filter-box">PRICE</div>
+    
+</section>
+
 <section class="featured-shop">
-    <h1 class="center featured-text">Featured</h1>
     <div class="wrapper">
         <div class="container-four">
         <div class="div">
-           <h1 onclick="toggle_visibility('foo');">Apparels <i class="right"></i></h1> 
-            <ul style="display: none" id="foo">
-                <li onclick="toggle_visibility('pants')">PANTS <i class="right"></i></li>
-                <ul style="display: none" id="pants">
-                    <li>A</li>
-                    <li>B</li>
-                    <li>C</li>
-                </ul>
-                <li onclick="toggle_visibility('jump')">JUMPSUITS <i class="right"></i></li>
-                <ul style="display: none" id="jump">
-                    <li>A</li>
-                    <li>B</li>
-                    <li>C</li>
-                </ul>
-                <li>SHORTS</li>
-                <li>TOPS</li>
-            </ul>
-            <h1>Accessories</h1>
-            <h1>Houseware</h1>
-            <h1>Others</h1>
-            <h1>Techniques</h1>
-            <h1>Styles</h1>
+           <h1 class="accordion">Apparels</h1>
+           <div class="panel">
             <ul>
-                <li>BOLD</li>
-                <li>MONOCHROME</li>
-                <li>NEUTRALS</li>
+                <li class="accordion">PANTS</li>
+                <div class="panel">
+                <ul>
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                </ul>
+            </div>
+                <li class="accordion">JUMPSUITS</li>
+                <div class="panel">
+                <ul>
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                </ul>
+            </div>
+            <li class="accordion">SHORTS</li>
+            <div class="panel">
+            <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
             </ul>
+        </div>
+        <li class="accordion">TOPS</li>
+        <div class="panel">
+        <ul>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+        </ul>
+            </ul>
+        </div> 
+
+            <h1 class="accordion">Accessories</h1>
+            <div class="panel">
+                    <ul>
+                        <li>A</li>
+                        <li>B</li>
+                        <li>C</li>
+                    </ul>
+            </div>
+            <h1 class="accordion">Houseware</h1>
+            <div class="panel">
+                    <ul>
+                        <li>A</li>
+                        <li>B</li>
+                        <li>C</li>
+                    </ul>
+            </div>
+            <h1 class="accordion">Others</h1>
+            <div class="panel">
+                    <ul>
+                        <li>A</li>
+                        <li>B</li>
+                        <li>C</li>
+                    </ul>
+            </div>
+            <h1 class="accordion">Techniques</h1>
+            <div class="panel">
+                    <ul>
+                        <li>A</li>
+                        <li>B</li>
+                        <li>C</li>
+                    </ul>
+            </div>
+            <h1 class="accordion">Styles</h1>
+            <div class="panel">
+                <p class="accordion">BOLD</p>
+                <div class="panel">
+                <ul>
+                        <li>A</li>
+                        <li>B</li>
+                        <li>C</li>
+                    </ul>
+                </div>
+                <p class="accordion">MONOCHROME</p>
+                <div class="panel">
+                        <ul>
+                                <li>A</li>
+                                <li>B</li>
+                                <li>C</li>
+                            </ul>
+                        </div>
+                <p class="accordion">NEUTRALS</p>
+                <div class="panel">
+                        <ul>
+                                <li>A</li>
+                                <li>B</li>
+                                <li>C</li>
+                            </ul>
+                        </div>
+            </div>
         </div>
         <div class="shop-featured-product">
         <ul>
@@ -239,7 +314,7 @@
 </section>
 
 <p class="center copy">Copyright Matter PTE LTD 2017</p>
-
+<script src="main.js"></script>
 </body>
 </html>
 

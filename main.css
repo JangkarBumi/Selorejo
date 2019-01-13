@@ -726,6 +726,30 @@ align-items: center; /* align vertical */
     margin-top:20px;
 }
 
+.shop-filter{
+    height: 60px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    display: flex;
+}
+
+.shop-filter-text{
+    font-family: ProximaNova;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.22;
+  letter-spacing: normal;
+  color: #030303;
+  margin-left: auto;
+}
+
+.filter-box{
+    width: 165px;
+    height: 40px;
+    background-color: #ffffff;
+}
 /* SHOP END  */
 
 /* PRODUCT */
@@ -1221,20 +1245,44 @@ align-items: center; /* align vertical */
 /* HIGHLIGHT NAV END*/
 
 /* FUNCTIONALITY CSS */
-.right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
-
-  .down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
   }
   
-  i {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
+
+  .accordion:after {
+    content: '\2192'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active{
+      color: #ff5e1b;
+  }
+
+  .accordion:hover{
+    color: #ff5e1b;
+  }
+
+  .active:after {
+    content: "\2193"; /* Unicode character for "minus" sign (-) */
   }
 /* FUNCTIONALITY CSS END*/  
