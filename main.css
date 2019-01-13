@@ -1213,3 +1213,9 @@ align-items: center; /* align vertical */
     margin: 20px auto;
 }
 /* ARTICLES END*/
+
+/* HIGHLIGHT NAV*/
+#current{ 
+    color: #ff5e1b; 
+}
+/* HIGHLIGHT NAV END*/
