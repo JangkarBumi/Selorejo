@@ -142,6 +142,10 @@ nav{
     color: #33333a;
 }
 
+.nav-word:hover{
+    color: #ff5e1b;
+}
+
 .product {
     width: 100%;
 }
@@ -1285,4 +1289,31 @@ align-items: center; /* align vertical */
   .active:after {
     content: "\2193"; /* Unicode character for "minus" sign (-) */
   }
+
+  .select-size{
+      display: flex
+  }
+
+  .size-box{
+    width: 50px;
+    height: 40px;
+    background-color: #ffffff;
+      border: 1px solid green;
+      margin-right: 20px;
+  }
+
+/* Product.html css*/  
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.size-guide{
+    margin-left: auto;
+}
+
 /* FUNCTIONALITY CSS END*/  

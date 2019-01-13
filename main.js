@@ -17,4 +17,15 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+
+//size
+var buttons = document.getElementsByClassName('size-box');
+for (var i=0 ; i < buttons.length ; i++){
+  (function(index){
+    buttons[index].onclick = function(){
+      alert("Size " + parseInt(index+1));
+    };
+  })(i)
+}
 //-->
