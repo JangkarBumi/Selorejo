@@ -85,10 +85,20 @@
     <div class="wrapper">
         <div class="container-four">
         <div class="div">
-           <h1>Apparels</h1> 
-            <ul>
-                <li>PANTS</li>
-                <li>JUMPSUITS</li>
+           <h1 onclick="toggle_visibility('foo');">Apparels <i class="right"></i></h1> 
+            <ul style="display: none" id="foo">
+                <li onclick="toggle_visibility('pants')">PANTS <i class="right"></i></li>
+                <ul style="display: none" id="pants">
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                </ul>
+                <li onclick="toggle_visibility('jump')">JUMPSUITS <i class="right"></i></li>
+                <ul style="display: none" id="jump">
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                </ul>
                 <li>SHORTS</li>
                 <li>TOPS</li>
             </ul>
@@ -229,6 +239,7 @@
 </section>
 
 <p class="center copy">Copyright Matter PTE LTD 2017</p>
+
 </body>
 </html>
 
